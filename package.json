@@ -1,0 +1,21 @@
+{
+  "name": "digital-companion",
+  "description": "A draggable, animated 3D companion for a web page.",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host 0.0.0.0",
+    "build": "vite build",
+    "preview": "vite preview --host 0.0.0.0"
+  },
+  "devDependencies": {
+    "vite": "^7.1.0",
+    "three": "^0.180.0"
+  },
+  "exports": {
+    ".": "./src/companion.js"
+  },
+  "peerDependencies": {
+    "three": "^0.180.0"
+  }
+}

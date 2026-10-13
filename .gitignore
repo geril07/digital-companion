@@ -1,0 +1,8 @@
+node_modules/
+dist/
+.playwright-cli/
+
+# Source assets and Blender working files stay local.
+/dark-armored-suit-3d-model/
+/dark-armored-suit-3d-model.zip
+/studies/
